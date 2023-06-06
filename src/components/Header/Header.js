@@ -3,8 +3,18 @@ import './Header.scss';
 function Header() {
     return (
     <>
-    <h1>Header</h1>
-    <p></p>
+        <section className='header'>
+            <div className='header__name'>
+                Alberto Borgonovo
+            </div>
+            <div className='header__list__container'>
+                <ul className='header__list__card'>
+                    <li>Projects</li>
+                    <li>Skills</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </section>
     </>
 );
 }
