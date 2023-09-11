@@ -5,8 +5,12 @@ function Projects () {
 
 
     return (
-        <div>
-            Projects
+        <div className="projects-component">
+            <div>
+                <h1>
+                    Projects
+                </h1>
+            </div>
         </div>
     )
 }
