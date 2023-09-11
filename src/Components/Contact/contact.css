@@ -20,6 +20,7 @@
     font-size: 16px;
     line-height: 1.5;
     color: #666; /* Set the text color */
+    width: 62%;
   }
   
   /* Style the links */
@@ -35,4 +36,18 @@
     height: 30px; /* Set the desired height for social icons */
     margin-right: 10px; /* Add spacing between social icons */
   }
-  
+
+  .contact-box {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .socials-box {
+    display: flex;
+  }
+
+  .socials-box2 {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+  }

@@ -7,14 +7,14 @@ function Contact() {
   return (
     <div className="contact-container">
       <h1>Let's Connect!</h1>
-      <div>
+      <div className='contact-box'>
         <p>
           I'm looking to collaborate on innovative software projects that tackle real-world challenges and push the boundaries of what's possible.
         </p>
-        <div>
-          <a href="">Here's my email</a>
+        <div className='socials-box'>
+          <a href="mailto:albertoiborgonovo@gmail.com">Email me here</a>
           <a href="">Download my resume</a>
-          <div>
+          <div className='socials-box2'>
             Socials
             <a href="https://www.linkedin.com/in/alberto-borgonovo/">
               <img className="social-image" src={linkedIn} alt="LinkedIn" />

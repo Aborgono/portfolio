@@ -2,7 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: .5rem black solid;
+    padding: 20px;
+    background-color: #f4f4f4; /* Set the background color as desired */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    border-bottom: .5rem solid black;
 }
 
 .header-logo {
