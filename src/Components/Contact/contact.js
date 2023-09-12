@@ -15,7 +15,9 @@ function Contact() {
           <a href="mailto:albertoiborgonovo@gmail.com">Email me here</a>
           <a href="">Download my resume</a>
           <div className='socials-box2'>
-            Socials
+            <p>
+              Socials
+            </p>
             <a href="https://www.linkedin.com/in/alberto-borgonovo/">
               <img className="social-image" src={linkedIn} alt="LinkedIn" />
             </a>

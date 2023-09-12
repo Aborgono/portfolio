@@ -2,24 +2,25 @@
 
 /* Style the container for the Contact component */
 .contact-container {
-    padding: 20px;
-    background-color: #f4f4f4; /* Set the background color as desired */
+    padding: 5rem;
+    padding-top: 2rem;
+    background-color: #000000; /* Set the background color as desired */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
   }
   
   /* Style the main heading */
   .contact-container h1 {
-    font-size: 24px;
+    font-size: 48px;
     margin-bottom: 20px;
-    color: #333; /* Set the text color */
+    color: #ffffff; /* Set the text color */
   }
   
   /* Style the main content */
   .contact-container p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
-    color: #666; /* Set the text color */
+    color: #ffffff; /* Set the text color */
     width: 62%;
   }
   
@@ -34,7 +35,7 @@
   .social-image {
     width: 30px; /* Set the desired width for social icons */
     height: 30px; /* Set the desired height for social icons */
-    margin-right: 10px; /* Add spacing between social icons */
+    /* margin-right: 10px; Add spacing between social icons */
   }
 
   .contact-box {
@@ -44,10 +45,13 @@
 
   .socials-box {
     display: flex;
+    align-items: center;
+    gap: 1rem;
   }
 
   .socials-box2 {
     gap: 1rem;
     display: flex;
     align-items: center;
+    color: #ffffff;
   }

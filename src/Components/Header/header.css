@@ -2,15 +2,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    background-color: #f4f4f4; /* Set the background color as desired */
+    padding: 5rem;
+    padding-bottom: 0;
+    background-color: #ccf0f5; /* Set the background color as desired */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-    border-bottom: .5rem solid black;
+    /* border-bottom: .5rem solid rgb(243, 243, 243);
+    margin: .5rem; */
+}
+
+.header-box-right {
+    font-size: 32px;
 }
 
 .header-logo {
-    height: 2rem;
+    height: 6rem;
 }
 
 .header-list {
