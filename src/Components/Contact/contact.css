@@ -40,13 +40,14 @@
 
   .contact-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .socials-box {
     display: flex;
     align-items: center;
     gap: 1rem;
+    flex-direction: column;
   }
 
   .socials-box2 {

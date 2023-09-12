@@ -2,6 +2,7 @@ import "./project.css"
 import maze from "../../data/images/mazegame.png"
 import brainflix from "../../data/images/Brainflix.png"
 import ukg from "../../data/images/UKG.png"
+import instock from "../../data/images/instock.png"
 
 function Projects () {
 
@@ -24,10 +25,10 @@ function Projects () {
                 <p> I developed a maze game that challenges player with differing difficultly levels and assesses their memory capabilities.
                     The game presents a series of mazes, each with unique alyouts and obstacles, requiring players to navigate through them by
                     memorizing the paths and making strategic decisions. </p>
-                <a href=""> Link to GitHub</a>
+                <a href="https://github.com/Aborgono"> Link to GitHub</a>
             </div>
             <div className="project-container">
-                <img className="image2" />
+                <img className="image2" src="" alt="Reel-Talk" />
                 <div>
                     <ul>
                         <li> React </li>
@@ -42,7 +43,7 @@ function Projects () {
                     specific to the user who liked said movie. There is also a password reset mechanism in case the user forgets their password.
                     I also created a simple backend to provide user authentication. Once a user logs in, a unique token is sent to the backend to verify the user exists in the database.
                     Otherwise they are redirected to the login screen.</p>
-                <a href=""> Link to GitHub</a>
+                <a href="https://github.com/Aborgono"> Link to GitHub</a>
             </div>
             <div className="project-container">
                 <img className="image3" src={brainflix} alt="brainflix "/>
@@ -55,7 +56,7 @@ function Projects () {
                 </div>
                 <h2> Brainflix </h2>
                 <p> Built out my own API service that manages video data. Built out the front end as well where users can click different videos and even upload their own video. </p>
-                <a href=""> Link to GitHub</a>
+                <a href="https://github.com/Aborgono"> Link to GitHub</a>
             </div>
             <div className="project-container">
                 <img className="image4" src={ukg} alt="ukg"/>
@@ -68,10 +69,10 @@ function Projects () {
                 <h2>Think On It! </h2>
                 <p> Job seeking platform using Generative AI Technology. In collaboration with engineers and UX designers in an Agile environment, 
                     leveraged Jira for project management, automated tasks, generated creative content, and made data-driven decisions by analyzing patterns. </p>
-                <a href=""> Link to GitHub</a>
+                <a href="https://github.com/Aborgono"> Link to GitHub</a>
             </div>
             <div className="project-container">
-                <img className="image5" />
+                <img className="image5" src={instock} alt="InStock" />
                 <div>
                     <ul>
                         <li> React </li>
@@ -83,7 +84,7 @@ function Projects () {
                 <h2>InStock </h2>
                 <p> Project for a Fortune 500 client. An Inventory Management System involving a scalable, full-stack web application. In teams we followed an Agile approach
                     and used a JIRA Scrum board to delegate tasks and track progress. </p>
-                <a href=""> Link to GitHub</a>
+                <a href="https://github.com/Aborgono"> Link to GitHub</a>
             </div>
         </div>
     )
