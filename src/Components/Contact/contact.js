@@ -13,7 +13,7 @@ function Contact() {
         </p>
         <div className='socials-box'>
           <a href="mailto:albertoiborgonovo@gmail.com">Email me here</a>
-          <a href="">Download my resume</a>
+          <a href='/Resume Alberto Borgonovo 2023 VF.pdf' download="Resume Alberto Borgonovo 2023 VF.pdf">Download my resume</a>
           <div className='socials-box2'>
             <p>
               Socials
