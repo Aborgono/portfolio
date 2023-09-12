@@ -2,6 +2,7 @@
 /* Style the container for the AboutMe component */
 .aboutMe-component {
     padding: 5rem;
+    padding-top: 6rem;
     background-color: #ccf0f5; /* Set the background color as desired */
     border-bottom: .5rem #ccf0f5 solid;
     border-radius: 8px;

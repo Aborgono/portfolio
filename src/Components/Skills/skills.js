@@ -14,7 +14,7 @@ import git from '../../data/images/Git-Icon-1788C.png';
 
 function Skills() {
   return (
-    <div className='skills-component'>
+    <div id='skills' className='skills-component'>
       <h1>Skills</h1>
       <div className="skills-container">
         <div className="skills">

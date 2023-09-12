@@ -5,7 +5,7 @@ import git from '../../data/images/Git-Icon-1788C.png';
 
 function Contact() {
   return (
-    <div className="contact-container">
+    <div id='contact' className="contact-container">
       <h1>Let's Connect!</h1>
       <div className='contact-box'>
         <p>

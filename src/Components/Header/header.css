@@ -7,6 +7,9 @@
     background-color: #ccf0f5; /* Set the background color as desired */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    position: fixed;
+    top: -5rem;
+    gap: 4rem;
     /* border-bottom: .5rem solid rgb(243, 243, 243);
     margin: .5rem; */
 }
@@ -16,7 +19,7 @@
 }
 
 .header-logo {
-    height: 6rem;
+    height: 4rem;
 }
 
 .header-list {
@@ -28,4 +31,5 @@
 
 .header-anchor-tag {
     text-decoration: none;
+    color: black;
 }

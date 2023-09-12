@@ -6,18 +6,20 @@ function Header () {
 return (
     <div className="header-container">
         <div className="header-box-left">
-            <img className="header-logo" src={ab} alt="logo" />
+            <a href="#home">
+            <img  className="header-logo" src={ab} alt="logo"/>
+            </a>
         </div>
         <div className="header-box-right">
             <ul className="header-list">
                 <li>
-                    <a className="header-anchor-tag" href="" > Projects </a>
+                    <a className="header-anchor-tag" href="#projects" > Projects </a>
                 </li>
                 <li>
-                    <a className="header-anchor-tag" href="" > Skills </a>
+                    <a className="header-anchor-tag" href="#skills" > Skills </a>
                 </li>
                 <li>
-                    <a className="header-anchor-tag" href="" > Contact </a>
+                    <a className="header-anchor-tag" href="#contact" > Contact </a>
                 </li>
             </ul>
         </div>

@@ -8,7 +8,7 @@ function Projects () {
 
 
     return (
-        <div className="projects-component ">
+        <div id="projects" className="projects-component ">
             <h1>Projects</h1>
             <div className="project-container">
                 <img className="image1" src={maze} alt="maze" />

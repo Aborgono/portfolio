@@ -3,7 +3,7 @@ import './aboutMe.css';
 
 function AboutMe() {
   return (
-    <div className="aboutMe-component">
+    <div id='home' className="aboutMe-component">
       <div>
         <h1>
           Hi, my name is Alberto Borgonovo. I am a Full Stack Web Developer based in Miami!
