@@ -3,6 +3,7 @@ import maze from "../../data/images/mazegame.png"
 import brainflix from "../../data/images/Brainflix.png"
 import ukg from "../../data/images/UKG.png"
 import instock from "../../data/images/instock.png"
+import reelTalk from "../../data/images/Reel-Talk.jpg"
 
 function Projects () {
 
@@ -28,7 +29,7 @@ function Projects () {
                 <a href="https://github.com/Aborgono"> Link to GitHub</a>
             </div>
             <div className="project-container">
-                <img className="image2" src="" alt="Reel-Talk" />
+                <img className="image2" src={reelTalk} alt="Reel-Talk" />
                 <div>
                     <ul>
                         <li> React </li>
