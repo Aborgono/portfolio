@@ -22,7 +22,9 @@ function Projects () {
                         <li> Node.js </li>
                     </ul>
                 </div>
-                <h2> Maze Runner </h2>
+                <a href="https://maze-runner-pink.vercel.app/">
+                    <h2> Maze Runner </h2>
+                </a>
                 <p> I developed a maze game that challenges player with differing difficultly levels and assesses their memory capabilities.
                     The game presents a series of mazes, each with unique alyouts and obstacles, requiring players to navigate through them by
                     memorizing the paths and making strategic decisions. </p>
