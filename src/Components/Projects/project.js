@@ -23,7 +23,7 @@ function Projects () {
                     </ul>
                 </div>
                 <a href="https://maze-runner-pink.vercel.app/">
-                    <h2> Maze Runner </h2>
+                    <h2> Maze Runner (click me) </h2>
                 </a>
                 <p> I developed a maze game that challenges player with differing difficultly levels and assesses their memory capabilities.
                     The game presents a series of mazes, each with unique alyouts and obstacles, requiring players to navigate through them by
@@ -40,7 +40,7 @@ function Projects () {
                         <li> Node.js </li>
                     </ul>
                 </div>
-                <h2> Reel Talk </h2>
+                <h2> Reel Talk (Coming soon: check out my github!) </h2>
                 <p> I built a simple front-end and backend to showcase proficiency in firebase. In the front-end, users have the ability to log in if they
                     already have an account or sign up if they do not. Once logged in, the user is able to like a list of movies. The likes are stored in the firestore database
                     specific to the user who liked said movie. There is also a password reset mechanism in case the user forgets their password.
@@ -57,7 +57,7 @@ function Projects () {
                         <li> Node.js </li>
                     </ul>
                 </div>
-                <h2> Brainflix </h2>
+                <h2> Brainflix (Coming soon: check out my github!) </h2>
                 <p> Built out my own API service that manages video data. Built out the front end as well where users can click different videos and even upload their own video. </p>
                 <a href="https://github.com/Aborgono"> Link to GitHub</a>
             </div>
@@ -69,7 +69,7 @@ function Projects () {
                         <li> Generative AI </li>
                     </ul>
                 </div>
-                <h2>Think On It! </h2>
+                <h2>Think On It! (Not Available: check out my github for code!) </h2>
                 <p> Job seeking platform using Generative AI Technology. In collaboration with engineers and UX designers in an Agile environment, 
                     leveraged Jira for project management, automated tasks, generated creative content, and made data-driven decisions by analyzing patterns. </p>
                 <a href="https://github.com/Aborgono"> Link to GitHub</a>
@@ -84,7 +84,7 @@ function Projects () {
                         <li> Express.js </li>
                     </ul>
                 </div>
-                <h2>InStock </h2>
+                <h2>InStock (Not Available: check out my github for code!) </h2>
                 <p> Project for a Fortune 500 client. An Inventory Management System involving a scalable, full-stack web application. In teams we followed an Agile approach
                     and used a JIRA Scrum board to delegate tasks and track progress. </p>
                 <a href="https://github.com/Aborgono"> Link to GitHub</a>
