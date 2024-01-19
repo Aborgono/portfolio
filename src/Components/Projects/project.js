@@ -4,16 +4,26 @@ import brainflix from "../../data/images/Brainflix.png"
 import ukg from "../../data/images/UKG.png"
 import instock from "../../data/images/instock.png"
 import reelTalk from "../../data/images/Reel-Talk.jpg"
+import ImageSlider from "../ImageSlide/imageSlider"
 
 function Projects () {
+
+    const mazeRunnerImages = [
+        {maze},
+        "http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg",
+        "http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg",
+        "http://flexslider.woothemes.com/images/kitchen_adventurer_caramel.jpg"
+    ]
+
 
 
 
     return (
         <div id="projects" className="projects-component ">
             <h1>Projects</h1>
-            <div className="project-container">
-                <img className="image1" src={maze} alt="maze" />
+                <div className="project-container">
+                <ImageSlider images={mazeRunnerImages} />
+                    {/* <img className="image1" src={maze} alt="maze" /> */}
                 <div>
                     <ul>
                         <li> React </li>

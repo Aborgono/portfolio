@@ -1,0 +1,35 @@
+/* ImageSlider.css */
+
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider img {
+    width: 60%;
+    border-radius: 10px;
+  }
+  
+  .left-arrow, .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .left-arrow {
+    left: 25px;
+  }
+  
+  .right-arrow {
+    right: 25px;
+  }
+  
