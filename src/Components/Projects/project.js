@@ -10,8 +10,13 @@ import bf3 from "../../data/images/BF3.png"
 import bf4 from "../../data/images/BF4.png"
 import bf5 from "../../data/images/BF5.png"
 
-import brainflix from "../../data/images/Brainflix.png"
-import ukg from "../../data/images/UKG.png"
+import ukg1 from "../../data/images/ukg1.png"
+import ukg2 from "../../data/images/ukg2.png"
+import ukg3 from "../../data/images/ukg3.png"
+import ukg4 from "../../data/images/ukg4.png"
+import ukg5 from "../../data/images/ukg5.png"
+import ukg6 from "../../data/images/ukg6.png"
+
 import instock from "../../data/images/instock.png"
 import reelTalk from "../../data/images/Reel-Talk.jpg"
 import ImageSlider from "../ImageSlide/imageSlider"
@@ -24,6 +29,10 @@ function Projects () {
 
     const brainFlixImages = [
         bf1,bf2,bf3, bf4, bf5
+    ]
+
+    const ukgImages = [
+        ukg1, ukg2, ukg3, ukg4, ukg5, ukg6
     ]
 
     return (
@@ -77,6 +86,19 @@ function Projects () {
                 <a href="https://github.com/Aborgono"> Link to GitHub</a>
             </div>
             <div className="project-container">
+                <ImageSlider images={ukgImages} />
+                <div>
+                    <ul>
+                        <li> React </li>
+                        <li> Generative AI </li>
+                    </ul>
+                </div>
+                <h2>Think On It! </h2>
+                <p> Job seeking platform using Generative AI Technology. In collaboration with engineers and UX designers in an Agile environment, 
+                    leveraged Jira for project management, automated tasks, generated creative content, and made data-driven decisions by analyzing patterns. </p>
+                <a href="https://github.com/Aborgono"> Link to GitHub</a>
+            </div>
+            <div className="project-container">
                 <img className="image2" src={reelTalk} alt="Reel-Talk" />
                 <div>
                     <ul>
@@ -92,20 +114,6 @@ function Projects () {
                     specific to the user who liked said movie. There is also a password reset mechanism in case the user forgets their password.
                     I also created a simple backend to provide user authentication. Once a user logs in, a unique token is sent to the backend to verify the user exists in the database.
                     Otherwise they are redirected to the login screen.</p>
-                <a href="https://github.com/Aborgono"> Link to GitHub</a>
-            </div>
-            
-            <div className="project-container">
-                <img className="image4" src={ukg} alt="ukg"/>
-                <div>
-                    <ul>
-                        <li> React </li>
-                        <li> Generative AI </li>
-                    </ul>
-                </div>
-                <h2>Think On It! (Not Available: check out my github for code!) </h2>
-                <p> Job seeking platform using Generative AI Technology. In collaboration with engineers and UX designers in an Agile environment, 
-                    leveraged Jira for project management, automated tasks, generated creative content, and made data-driven decisions by analyzing patterns. </p>
                 <a href="https://github.com/Aborgono"> Link to GitHub</a>
             </div>
         </div>
